@@ -5,4 +5,4 @@ From tomcat:9.0.16-jre11
 MAINTAINER "sreedhar.kurra@abbvie.com"
 
 #Copy war file on to container
-COPY /opt/docker/WebApp.war /usr/local/tomcat/webapps
+COPY /opt/ansible/WebApp.war /usr/local/tomcat/webapps
